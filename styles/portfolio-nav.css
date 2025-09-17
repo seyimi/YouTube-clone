@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  border-bottom: 1px solid rgb(75, 74, 76);
+  border-top: 1px solid rgb(75, 74, 76);
+  cursor: pointer;
+
+}
+
+.left-section {
+  margin-left: 26px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.logo-item {
+  height: 32px;
+  
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.link-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 16px; /* space between links */
+}
+
